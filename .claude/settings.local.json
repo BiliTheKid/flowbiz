@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx prisma migrate status)",
+      "Bash(taskkill //PID 27040 //F)",
+      "Bash(npx prisma db push)",
+      "Bash(taskkill //PID 25048 //F)",
+      "Bash(taskkill //PID 6008 //F)",
+      "Bash(taskkill //PID 22864 //F)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
